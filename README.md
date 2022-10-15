@@ -44,11 +44,7 @@ Visulog contains the following modules:
 
 1. clone the repository
     ```
-    git clone git@gaufre.informatique.univ-paris-diderot.fr:adegorre/visulog.git
-    ```
-   or
-    ```
-    git clone https://gaufre.informatique.univ-paris-diderot.fr/adegorre/visulog.git
+    git clone https://github.com/AnyTaf/Visulog.git
     ```
 2. Enter the project folder
     ```
@@ -123,9 +119,9 @@ Count the number of commits per Hour of day
 ```
 Count the number of lines added and deleted per user in each file of the project
 ```
-./gradlew run --args='. --addPlugin=userStats/Salhi_Younes'
+./gradlew run --args='. --addPlugin=userStats/Anyes_TAFOUGHALT'
 ```
-Show the stats of the user "Salhi Younes" (number of commits,merge commits,lines added and lines deleted) instead of space you will have to put '_'
+Show the stats of the user "Anyes TAFOUGHALT" (number of commits,merge commits,lines added and lines deleted) instead of space you will have to put '_'
 ```
 ./gradlew run --args='. --loadConfigFile=fileName'
 ```
